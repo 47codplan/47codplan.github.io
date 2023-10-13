@@ -159,6 +159,8 @@ const app = {
                 }
             ],
             activeArea: null,
+            selectedArea: null,
+            cardVisible: false,
             mouseX: 0,
             mouseY: 0,
             cardX: 0,
@@ -171,6 +173,13 @@ const app = {
         window.addEventListener('resize', this.updateWindowSize);
     },
     methods: {
+        popupCard(area) {
+            this.selectedArea = area;
+            this.cardVisible = true;
+        },
+        closeCard() {
+            this.cardVisible = false;
+        },
         showCard(area, event) {
             this.activeArea = area;
             this.moveCard(event);

@@ -27,6 +27,7 @@
             @mouseenter="showCard(area, $event)"
             @mousemove="moveCard($event)"
             @mouseleave="hideCard"
+            @click="popupCard(area)"
         ></div>
         
         <div 
@@ -60,6 +61,31 @@
                 </div>
                 <div>
                     <span>{{ activeArea.position }}</span>
+                </div>
+            </div>
+        </div>
+        <div v-if="cardVisible" class="info-card" @click="closeCard()">
+            <img :src="selectedArea.image" alt="Area Image" class="card-image">
+            
+            <div class="card-content">
+                <div class="card-title" 
+                    :style="{
+                    color: opaqueColorStyle(selectedArea.color)
+                    }"
+                >
+                  <b>{{ selectedArea.name }}</b>
+                </div>
+                <div>
+                    <span class="card-label">Grid coordinate </span>
+                </div>
+                <div>
+                    <span>X: {{ selectedArea.x }} Y: {{ selectedArea.y }}</span>
+                </div>
+                <div>
+                    <span class="card-label">Flag position in the grid: </span>
+                </div>
+                <div>
+                    <span>{{ selectedArea.position }}</span>
                 </div>
             </div>
         </div>

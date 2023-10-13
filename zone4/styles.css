@@ -12,13 +12,29 @@
     transition: opacity 0.3s ease;
 }
 
+.info-card {
+    width: 90%;             /* 默认情况下，使卡片宽度等于页面宽度 */
+    max-width: 1600px;
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 9999; 
+}
+
+.info-card .card-image {
+    width: 100%; 
+    max-width: none;
+    height: auto;
+}
+
 .card {
     max-width: 1000px;
     border-radius: 5px;
     overflow: hidden;  /* Ensure the image fits within the card */
 }
 
-.card-image {
+.card .card-image {
     max-width: 1000px;
     display: block;
     margin: 0 auto; /* Center the image if it's narrower than the card */
