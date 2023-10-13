@@ -10,7 +10,7 @@ const app = {
                     y: 659,
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t1.png',
+                    image: 'images/t1.jpg',
                     position: 'Top right'
                 },
                 { 
@@ -19,7 +19,7 @@ const app = {
                     y: 668, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t2.png',
+                    image: 'images/t2.jpg',
                     position: 'Right'
                 },
                 { 
@@ -28,7 +28,7 @@ const app = {
                     y: 677, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t3.png',
+                    image: 'images/t3.jpg',
                     position: 'Center'
                 },
                 { 
@@ -37,7 +37,7 @@ const app = {
                     y: 686, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t4.png',
+                    image: 'images/t4.jpg',
                     position: 'Top right'
                 },
                 { 
@@ -46,7 +46,7 @@ const app = {
                     y: 695, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t5.png',
+                    image: 'images/t5.jpg',
                     position: 'Top right'
                 },
                 { 
@@ -55,7 +55,7 @@ const app = {
                     y: 704, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t6.png',
+                    image: 'images/t6.jpg',
                     position: 'Bottom'
                 },
                 { 
@@ -64,7 +64,7 @@ const app = {
                     y: 713, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t7.png',
+                    image: 'images/t7.jpg',
                     position: 'Top right'
                 },
                 { 
@@ -73,7 +73,7 @@ const app = {
                     y: 722, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t8.png',
+                    image: 'images/t8.jpg',
                     position: 'Top left'
                 },
                 { 
@@ -82,7 +82,7 @@ const app = {
                     y: 729, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t9.png',
+                    image: 'images/t9.jpg',
                     position: 'Bottom right'
                 },
                 { 
@@ -91,7 +91,7 @@ const app = {
                     y: 736, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t10.png',
+                    image: 'images/t10.jpg',
                     position: 'Top right'
                 },
                 { 
@@ -100,7 +100,7 @@ const app = {
                     y: 745, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t11.png',
+                    image: 'images/t11.jpg',
                     position: 'Center'
                 },
                 { 
@@ -109,7 +109,7 @@ const app = {
                     y: 754, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t12.png',
+                    image: 'images/t12.jpg',
                     position: 'Center'
                 },
                 { 
@@ -118,7 +118,7 @@ const app = {
                     y: 761, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t13.png',
+                    image: 'images/t13.jpg',
                     position: 'Top right'
                 },
                 { 
@@ -127,7 +127,7 @@ const app = {
                     y: 761, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t14.png',
+                    image: 'images/t14.jpg',
                     position: 'Bottom right'
                 },
                 { 
@@ -136,7 +136,7 @@ const app = {
                     y: 769, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t15.png',
+                    image: 'images/t15.jpg',
                     position: 'Top'
                 },
                 { 
@@ -145,7 +145,7 @@ const app = {
                     y: 778, 
                     len: 10, 
                     color: 'rgba(255,0,0,0.2)', 
-                    image: 'images/t16.png',
+                    image: 'images/t16.jpg',
                     position: 'Center'
                 },
                 { 
@@ -154,7 +154,7 @@ const app = {
                     y: 758, 
                     len: 14, 
                     color: 'rgba(163,73,164,0.2)', 
-                    image: 'images/f14.png',
+                    image: 'images/f14.jpg',
                     position: 'Top right'
                 }
             ],
