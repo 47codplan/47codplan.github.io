@@ -190,13 +190,13 @@ const app = {
             const cardWidth = 1000;
             const cardHeight = 0.6 * cardWidth;
 
-            if (mouseX + cardWidth > this.windowWidth) {
+            if (event.clientX + cardWidth > this.windowWidth) {
                 this.cardX = mouseX - cardWidth - 10;
             } else {
                 this.cardX = mouseX + 10;
             }
 
-            if (mouseY + cardHeight > this.windowHeight) {
+            if (event.clientY + cardHeight > this.windowHeight) {
                 this.cardY = mouseY - cardHeight - 10;
             } else {
                 this.cardY = mouseY + 10;
